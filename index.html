@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dream City </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Dream City Delhi</h1>
+        <p>Where Dreams Come to Life</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#city-description">City Description</a></li>
+            <li><a href="#attractions">Attractions</a></li>
+            <li><a href="#city-statistics">City Statistics</a></li>
+            <li><a href="#citizen-feedback">Citizen Feedback</a></li>
+            <li><a href="#quotes">Quotes from Citizens</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <section id="city-description">
+        <h2>About Our City</h2>
+        <img src="https://media.istockphoto.com/id/672288354/photo/india-gate-lit-with-tricolor.jpg?s=1024x1024&w=is&k=20&c=a3K9AGKZX5r-gmGfmAvRjUrEFVU7b7758REFgaklWL8=" alt="City Image">
+        <p>Welcome to our beautiful dream city, where every day is an adventure waiting to happen. </p>
+    </section>
+    <hr>
+    <section id="attractions">
+        <h2>Attractions</h2>
+        <h3>Main Attractions</h3>
+        <ul>
+            <li>Redfort</li>
+            <li>India Gate</li>
+        </ul>
+        <h3>loacal Favorites</h3>
+        <ol>
+            <li>Khasta Kachaudi</li>
+            <li>Cchole-Bhatore</li>
+       </ol>
+    </section>
+    <hr>
+    <section id="city-statistics">
+        <h2>City Statistics</h2>
+        <table>
+            <tr>
+                <th>Population of Delhi</th>
+                <th>Area</th>
+            </tr>
+            <tr>
+                <td>32,066,000</td>
+                <td>1,483 sq. km</td>
+            </tr>
+        </table>
+    </section>
+    <hr>
+    <section id="citizen-feedback">
+        <h2>Citizen Feedback</h2>
+        <form>
+            <label for="name" >Name</label>
+            <input type="text" class="name" id="name" name="name" placeholder="Enter Name" required><br>
+            <!--Age-->
+            <label for="age">Age</label>
+            <input type="number" id="age" class="name" name="age" placeholder="Enter Age" required><br>
+            <!--eMAIL-->
+            <label for="email">Email</label>
+            <input type="email" id="email" class="name" name="email" placeholder="Enter Email" required><br>
+            <!--FEEDBACK KE LIYE-->
+            <label for="feedback-type">Feedback Type</label>
+            <select name="feedback-type" id="feedback-type">
+                <option class="name" value="positive">Positive</option>
+                <option  class="name" value="negative">Negative</option>
+                <option class="name" value="neutral">Neutral</option>
+           </select><br><br>
+           <label for="comments">Comments:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter the Comments..." required></textarea><br><br>
+
+            <label for="subscribe">Subscribe to Newsletter:</label>
+            <input type="checkbox" id="subscribe" name="subscribe"><br><br>
+
+            <input type="submit" id="btn" value="Submit">
+
+        </form>
+    </section>
+    <section id="quotes">
+        <h2>Quotes from Citizens</h2>
+        <p><span>"My Dream City is truly a hidden gem. Every corner tells a unique story."</span> - Emily</p>
+        <p><span>"The warmth of the people here makes My Dream City feel like home."</span> - John</p>
+    </section>
+
+    <hr>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <address>
+            <p><i>My Dream City Tourism Office</i></p>
+            <p>123 City Center, Dreamland</p>
+            <p><a href="mailto:info@mydreamcity.com">info@mydreamcity.com</a></p>
+        </address>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 My Dream City. All rights reserved. | Designed by [Your Name]</p>
+    </footer>
+</body>
+</html>

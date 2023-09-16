@@ -1,0 +1,55 @@
+form{
+    background-color: #f83b3b;
+    color: white;
+    padding:15px;
+    margin: 20px;
+    border: none;
+    border-radius: 15px;
+    align-items: center;
+}
+.name{
+    padding-left: 10px;
+    margin-top: 10px;;
+    color: red;
+    border-radius: 15px;
+    width: 400px;
+}
+
+#citizen-feedback{
+    background: red;
+    padding: 1px;
+    border:2px solid black;
+    border-radius: 15px;
+}
+h2{
+    background: yellow;
+    border: 1px solid green;
+    border-radius: 15px;
+
+}
+p{
+    background:rgb(119, 91, 91);
+    color: white;
+    border: 1px solid green;
+    border-radius: 15px;
+
+}
+h1{
+    background: #000;
+    color:white;
+    border-radius: 15px;
+}
+body{
+    background:rgb(17, 29, 83);
+}
+#btn{
+    color:red;
+    border: 2px solid black;
+    font-size: 12px;
+    border-radius: 13px;
+}
+#btn:hover{
+    background: rgb(75, 75, 57);
+    color:yellow;
+    font-size: large;
+}
